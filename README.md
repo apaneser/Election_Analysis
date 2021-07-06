@@ -15,4 +15,4 @@ The purpose of this project is to give additional information to Seth and Tom to
 ![Election Results](Resources)
 
 ## Summary
-
+This script can be used in any election as long as the csv file is formatted similarly. If the information needed are county and candidate votes, all that needs to be modified is the file path. Since the loops are built to handle any size of array and people, more counties and candidates can be added without changing the code at all. If the csv file isn't ordered the same, the row indexes may need to be modified. Some variables and strings can be modified to hold information for other locales like city or state instead of county. Much of the code can be recycled with  modification to add even more information like what percentage of candidates were voted from all the counties
